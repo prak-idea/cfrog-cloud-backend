@@ -7,6 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import os
 
+# ✅ must match start command: uvicorn main:app
 app = FastAPI(title="C-FROG Cloud API")
 
 @app.get("/")
